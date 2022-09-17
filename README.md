@@ -71,7 +71,7 @@
     print("Precio desviacion std: ${}".format(precio_desviaciostda))
   
 ## 7. EDA 📖
-## GRAFICOS DE DISPERSION E HISTOGRAMAS
+## GRAFICOS DE DISPERSION HISTOGRAMAS
 
     sns.pairplot(df, size=1)
     plt.tight_layout()
@@ -98,7 +98,7 @@ SE EVIDENCIA MAYOR CORRELACION ENTRE STORIES(PLANTAS) Y PRICE 0.77
     reg = LinearRegression()
     reg.fit(x_train,y_train)
   
-## 11. EVALUACION 
+## 11. EVALUACION 📋
 
     training_data_prediction = reg.predict(x_train)
     print(training_data_prediction)
@@ -153,8 +153,6 @@ SE CONSTRUYE MODELO TECNICA DE POTENCIACION DEL GRADIENTE GRADIENTE CONJUNTO DE 
     from sklearn import metrics
 
     valor_1 = metrics.r2_score(Y_train, pred_y)
-
-  ## ERROR MEDIO ABSOLUTO
 
     valor_2 = metrics.mean_absolute_error(Y_train, pred_y)
 
