@@ -13,7 +13,7 @@
 8. Correlación
 9. Modelo entrenamiento y prueba
 10. Regresion Lineal 
-11.Evaluaión
+11. Evaluaión
 12. Gráfica 
 13. XGBRegressor
 14. Random Forest
