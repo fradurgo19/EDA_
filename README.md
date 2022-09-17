@@ -4,15 +4,15 @@
 ## Pasos 🚀
 
 1. Se importan librerias 
-2. Se seleccionan los datos
-3. Se cambia onject
+2. Seleccionar los datos
+3. Se cambia object
 4. Eliminar nulos
-5. Se variables test y train
-6. Calculos estadístico 
+5. Definir variables test y train
+6. Calculo estadístico 
 7. EDA
 8. Correlación
-9. Modelo entrenamiento y prueba
-10. Regresion Lineal 
+9. Modelo de entrenamiento y prueba
+10. Regresión Lineal 
 11. Evaluaión
 12. Gráfica 
 13. XGBRegressor
