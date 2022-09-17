@@ -70,7 +70,7 @@
     print("Precio mediana: ${}".format(precio_mediana))
     print("Precio desviacion std: ${}".format(precio_desviaciostda))
   
-## 7. EXPLORIN DATA ANALITICS EDA 📖
+## 7. EDA 📖
 ## GRAFICOS DE DISPERSION E HISTOGRAMAS
 
     sns.pairplot(df, size=1)
@@ -103,7 +103,7 @@ SE EVIDENCIA MAYOR CORRELACION ENTRE STORIES(PLANTAS) Y PRICE 0.77
     training_data_prediction = reg.predict(x_train)
     print(training_data_prediction)
 
-# R2 ERROR CAUDRADO 
+## R2 ERROR CAUDRADO 
 
     from sklearn import metrics
     valor_1 = metrics.r2_score(y_train, training_data_prediction)
